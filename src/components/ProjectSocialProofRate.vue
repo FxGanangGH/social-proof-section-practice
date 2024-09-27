@@ -4,9 +4,9 @@
   >
     <div class="flex items-center justify-center gap-x-2 xl:gap-x-3">
       <svg
-        v-for="(rate, index) in rating"
+        v-for="rate in rating"
         class="xl:scale-110 2xl:scale-125"
-        :key="index"
+        :key="rate"
         width="17"
         height="16"
         xmlns="http://www.w3.org/2000/svg"

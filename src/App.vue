@@ -14,7 +14,7 @@
         <div class="flex w-full flex-col items-center xl:w-1/2 xl:items-start">
           <ProjectSocialProofRate
             v-for="(rate, index) in rates"
-            :key="index"
+            :key="rate"
             :class="{
               'mt-0': index === 0,
               'mt-5': index > 0,
@@ -30,7 +30,7 @@
       >
         <ProjectSocialProofReview
           v-for="(review, index) in reviews"
-          :key="index"
+          :key="review.name"
           :class="{
             'mt-0': index === 0,
             'mt-5 xl:ml-10': index > 0,

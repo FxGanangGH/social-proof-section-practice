@@ -6,6 +6,7 @@
       <img
         class="size-10 rounded-full xl:size-14 2xl:size-16"
         :src="`/images/image-${data.icon}.jpg`"
+        :alt="`Verified Buyer ${data.name}`"
       />
       <div class="pt-1">
         <h1
