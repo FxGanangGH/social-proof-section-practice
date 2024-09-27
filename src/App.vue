@@ -1,6 +1,6 @@
 <template>
   <main
-    class="flex size-full min-h-screen items-center justify-center bg-white bg-[url('/images/bg-pattern-top-mobile.svg'),_url('/images/bg-pattern-bottom-mobile.svg')] bg-[position:left_top,_right_bottom] bg-no-repeat xl:bg-[url('/images/bg-pattern-top-desktop.svg'),_url('/images/bg-pattern-bottom-desktop.svg')]"
+    class="flex size-full min-h-screen select-none items-center justify-center bg-white bg-[url('/images/bg-pattern-top-mobile.svg'),_url('/images/bg-pattern-bottom-mobile.svg')] bg-[position:left_top,_right_bottom] bg-no-repeat xl:bg-[url('/images/bg-pattern-top-desktop.svg'),_url('/images/bg-pattern-bottom-desktop.svg')]"
   >
     <div
       class="flex size-full min-h-screen flex-col items-center px-5 py-20 xl:w-11/12 xl:max-w-screen-2xl xl:justify-center xl:pt-16 2xl:px-0"
